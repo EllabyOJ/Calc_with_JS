@@ -7,19 +7,19 @@ function calculator(){
     num1 = parseFloat(num1)
     num2 = parseFloat(num2)
 
-    if (calculate = "addition"){
+    if (calculate == "addition"){
         alert(num1+num2)
     }
 
-    else if (calculate = "subtraction"){
+    else if (calculate == "subtraction"){
         alert(num1-num2)
     }
 
-    else if (calculate = "division"){
+    else if (calculate == "division"){
         alert(num1/num2)
     }    
     
-    else if (calculate = "multiplication"){
+    else if (calculate == "multiplication"){
         alert(num1*num2)
     }    
     
@@ -29,7 +29,7 @@ function calculator(){
 
     let anotherOperation = prompt("Would you like to perform another operation?(yes/no)")
 
-    if (anotherOperation = "yes"){
+    if (anotherOperation == "yes"){
         calculator()
     } else{
         alert("Operation ended, have a nice day")
