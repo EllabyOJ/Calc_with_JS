@@ -31,9 +31,7 @@ function calculator(){
 
     if (anotherOperation = "yes"){
         calculator()
-    }
-
-    else{
+    } else{
         alert("Operation ended, have a nice day")
     }
 }
