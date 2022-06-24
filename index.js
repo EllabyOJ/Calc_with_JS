@@ -24,7 +24,7 @@ function calculator(){
     }    
     
     else{
-        alert("Invalid selection")
+        alert("Invalid operation selected")
     }
 
     let anotherOperation = prompt("Would you like to perform another operation?(yes/no)")
