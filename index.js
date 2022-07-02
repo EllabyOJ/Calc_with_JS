@@ -1,6 +1,6 @@
 function calculator(){
-    let calculator = prompt("What action would you like to perform (Addition, subtraction, multiplication, or division?)");
-    let calculate = calculator.toLowerCase();
+    let calc = prompt("What action would you like to perform (Addition, subtraction, multiplication, or division?)");
+    let calculate = calc.toLowerCase();
 
     if (calculate == "addition"){
         let num1 = prompt ("Enter first number:");  
