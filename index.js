@@ -1,5 +1,6 @@
 function calculator(){
-    let calculate = prompt("What action would you like to perform (Addition, subtraction, multiplication, or division?)")
+    let calculator = prompt("What action would you like to perform (Addition, subtraction, multiplication, or division?)");
+    let calculate = calculator.toLowerCase();
 
     if (calculate == "addition"){
         let num1 = prompt ("Enter first number:");  
@@ -45,7 +46,8 @@ function calculator(){
         alert("Invalid operation selected")
     }
 
-    let anotherOperation = prompt("Would you like to perform another operation?(yes/no)")
+    let Operation = prompt("Would you like to perform another operation?(yes/no)");
+    let anotherOperation = Operation.toLowerCase();
 
     if (anotherOperation == "yes"){
         calculator()
